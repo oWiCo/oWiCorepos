@@ -1,7 +1,7 @@
 {
-  "name": "vue-paper-dashboard",
+  "name": "owicoapp",
   "version": "1.0.0",
-  "private": true,
+  "private": false,
   "scripts": {
     "build": "vue-cli-service build",
     "e2e": "node test/e2e/runner.js",
@@ -38,5 +38,15 @@
     "> 1%",
     "last 2 versions",
     "not ie <= 8"
-  ]
+  ],
+  "main": "vue.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/creativetimofficial/vue-paper-dashboard.git"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/creativetimofficial/vue-paper-dashboard/issues"
+  },
+  "homepage": "https://github.com/creativetimofficial/vue-paper-dashboard#readme"
 }
